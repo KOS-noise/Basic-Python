@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Weather Forecast</title>
+    <description>Static sample data for learning Beautiful Soup and Flask</description>
+    <item>
+      <description>
+        <body>
+          <location>
+            <city>Seoul</city>
+            <data><wf>Sunny</wf><tmn>12</tmn><tmx>20</tmx></data>
+          </location>
+          <location>
+            <city>Incheon</city>
+            <data><wf>Cloudy</wf><tmn>11</tmn><tmx>19</tmx></data>
+          </location>
+          <location>
+            <city>Daejeon</city>
+            <data><wf>Partly cloudy</wf><tmn>10</tmn><tmx>21</tmx></data>
+          </location>
+          <location>
+            <city>Busan</city>
+            <data><wf>Clear</wf><tmn>14</tmn><tmx>22</tmx></data>
+          </location>
+          <location>
+            <city>Jeju</city>
+            <data><wf>Light rain</wf><tmn>15</tmn><tmx>20</tmx></data>
+          </location>
+        </body>
+      </description>
+    </item>
+  </channel>
+</rss>
